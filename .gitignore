@@ -1,0 +1,15 @@
+# Node and build
+node_modules/
+dist/
+build/
+
+# Vite env local file
+.env.local
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store

@@ -1,0 +1,69 @@
+/* ... keep all your existing styles ... */
+
+.decisions-list {
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.decisions-list h2 {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.decision-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #e9ecef;
+}
+
+.pill {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.pill-green {
+  background-color: #2ecc71;
+}
+
+.pill-yellow {
+  background-color: #f1c40f;
+  color: #333;
+}
+
+.pill-red {
+  background-color: #e74c3c;
+}
+
+/* Basic layout */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 16px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+select, input[type="radio"] {
+  margin-left: 8px;
+}
+
+.message {
+  margin-top: 12px;
+  font-weight: 600;
+}
