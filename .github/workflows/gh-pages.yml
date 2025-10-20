@@ -31,7 +31,7 @@ jobs:
           VITE_MATRIX_ID: ${{ secrets.VITE_MATRIX_ID }}
           VITE_COLLABORATOR_EMAIL: ${{ secrets.VITE_COLLABORATOR_EMAIL }}
         # Replace "/REPO_NAME/" with your repository name for a project site.
-        run: npm run build -- --base "/REPO_NAME/"
+        run: npm run build -- --base "/pre-adjudication-matrix-configuration/"
 
       - name: Create 404 fallback (SPA support)
         run: cp dist/index.html dist/404.html
