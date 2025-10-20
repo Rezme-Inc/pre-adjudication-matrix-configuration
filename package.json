@@ -1,14 +1,11 @@
 {
   "name": "pre-adjudication-matrix-configuration",
-  "homepage": "https://rezme-inc.github.io/pre-adjudication-matrix-configuration/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.37.0",
