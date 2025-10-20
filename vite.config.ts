@@ -6,6 +6,7 @@ export default defineConfig(async () => {
   const reactPlugin = (await import('@vitejs/plugin-react')).default
   return {
     plugins: [reactPlugin(), tsconfigPaths()],
+    base:" '/pre-adjudication-matrix-configuration",
     server: { port: 5173 }
   }
 })
